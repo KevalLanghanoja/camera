@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-button color="primary" (click)="flashlight1()">Flashlight On</ion-button>
+
+  </ion-content>
+  <ion-content>
+    <ion-button color="primary" (click)="flashlight2()">Flashlight Off</ion-button>
+  </ion-content>
+  <ion-content>
+    <ion-button color="primary"(click)=" takephoto()">Camera</ion-button>
+    <p><img src="{{ myphoto }}"></p>
+  </ion-content>
+
